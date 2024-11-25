@@ -1,4 +1,4 @@
-# Customer Segmentation using RFM Model Analysis
+# Customer Segmentation by RFM Analysis
 # I. Introduction
 ## 1. Introduction to RFM analysis:
 - RFM analysis is a popular customer analysis technique in marketing and customer relationship management (CRM). It evaluates customers based on three factors:
