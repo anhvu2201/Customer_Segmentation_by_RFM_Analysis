@@ -10,7 +10,26 @@
 - Determine RFM scores to segment customers into different groups.
 - Analyze the company - Superstore's performance status and provide recommendations for the marketing department.
 - Identify which of the three metrics (R, F, and M) should be prioritized.
-# II. Data Visualization Using Python
+# II. Exploratory Data Analysis - EDA
+## 1. Explore Data:
+  ![image](https://github.com/user-attachments/assets/54a4778d-0d4d-48e2-8538-e6825ec7ce75)
+## 2. Apply Conditions On Dataset:
+  ![image](https://github.com/user-attachments/assets/c4a121b5-9151-4528-ade6-372f4fdc225f)
+  - Only users from UK are chosen for analysis, as they contributed for 98% of the dataset.
+  - Data in 'Quantity' must take a positive value.
+  - Data in 'UnitPrice' must take a positive value.
+## 3. Check & Handle Null Values:
+  ![image](https://github.com/user-attachments/assets/2987ea5a-590c-4686-9ad4-e011c08175db)
+  - Null values are not accepted in primal key column.
+  - Action: Drop null values.
+## 4. Correct Data Type:
+  ![image](https://github.com/user-attachments/assets/61355ad5-2c73-4d4d-8831-2360d590cac7)
+  - Changing 'CustomerID' data type from float64 to int64.
+## 5. Check & Handle Missing Values:
+  ![image](https://github.com/user-attachments/assets/429ff302-27d3-438e-afc5-469af086d717)
+## 6. Conclusion:
+  ![image](https://github.com/user-attachments/assets/d3dc0a10-16c6-480c-b454-8ad748bad0d9)
+# III. Data Visualization Using Python
 ## 1. Distribution of Recency:
    ![R](https://github.com/user-attachments/assets/d0ef484f-d93a-4faa-9ace-7d896f27db30)
    - The distribution of Recency is right-skewed. As the Recency increases, there is a steep decline in the number of customers.
